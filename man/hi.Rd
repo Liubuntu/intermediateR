@@ -4,10 +4,12 @@
 \alias{hi}
 \title{This function is a conversation starter.}
 \usage{
-hi(who)
+hi(who, how = c("shout", "whisper"))
 }
 \arguments{
 \item{who}{character(1) The name of the person for conversation}
+
+\item{how}{character(1) How to greet the conversant. "shout" or "whisper".}
 }
 \value{
 character(1) conversation starter
@@ -17,5 +19,6 @@ some helpful text.
 }
 \examples{
    hi("Qian Liu")
+   hi("Qian Liu", "whisper")
 }
 
