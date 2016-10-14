@@ -9,6 +9,11 @@ Description: This is an amazing package that I have invested are really large
     different from all other ideas that have gone before.
 Depends:
     R (>= 3.3.1)
+Imports:
+    SummarizedExperiment,
+    dplyr,
+    magrittr,
+    reshape2
 License: Artistic-2.0 (anything you want to input here)
 Encoding: UTF-8
 LazyData: true
