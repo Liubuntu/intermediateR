@@ -18,3 +18,4 @@ License: Artistic-2.0 (anything you want to input here)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: testthat
